@@ -26,13 +26,15 @@
         </div>
         <div class="row justify-content-center fs-10 text-justify">
             <div class="col-md-4 text-center">
-                <p>Website <b>Food Court Online</b> ini dibuat untuk memenuhi para restoran cafe dll ,yang ingin memposting ke jaring media <b>disilah tempat yang paling anda cari</b>
+                <p>Website <b>Food Court Online</b> ini dibuat untuk memenuhi tugas besar Pratikum Web yang diampu oleh dosen
+                    kami tercinta yaitu Bapak <b>R. Shandika Galih Amalga, ST., MT.</b> dan didampingi oleh para asisten yang
+                    sangat antusias dan spirit untuk membimbing kami, yaitu <b>Kang Wildan, Kang Adit dan Teh Ames.</b>
                 </p>
             </div>
             <div class="col-md-4 text-center">
-                <p>Website <b>Food Court Online</b> ini juga dibuat oleh 5 anggota yang luar biasa  yaitu <b>Rifqi Alfauzaan</b> 
-                    ,  <b>Ipan Sopian</b>  <b>Fikri Anjani</b> ,  <b>Aimar Shacher A. K</b> 
-                  , dan <b>lukman Tresnahadi</b> 
+                <p>Website <b>Food Court Online</b> ini juga dibuat oleh 5 anggota yang luar biasa, yang leadernya yaitu <b>rifqi</b> yang membuat 
+                    backend, lalu <b>ipan</b> yang membuat halaman home, lalu <b>fikri</b> yang membuat halaman centeen, lalu <b>aimar</b> yang membuat halaman
+                    about us, dan <b>lukman</b> yang membuat halaman contact us.
                 </p>
         </div>
     </div>
