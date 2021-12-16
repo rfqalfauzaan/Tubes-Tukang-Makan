@@ -30,15 +30,22 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about',[
+    return view('about', [
         "active" => "about"
     ]);
 });
 
 Route::get('/contact', function () {
-    return view('contact',[
-        "active" => "home"]);
-    });
+    return view('contact', [
+        "active" => "home"
+    ]);
+});
+
+Route::get('/weather', function () {
+    return view('weather', [
+        "active" => "weather"
+    ]);
+});
 
 
 
@@ -48,7 +55,7 @@ Route::get('blog/{post:slug}', [PostController::class, 'show']);
 Route::get('/categories', function () {
     return view('categories', [
         'title' => 'Post Categories',
-        'active' => 'categories', 
+        'active' => 'categories',
         'categories' => Category::all()
     ]);
 });
@@ -64,14 +71,14 @@ Route::get('/register', [RegisterController::class, 'index'])->middleware('guest
 
 Route::post('/register', [RegisterController::class, 'store']);
 
-Route::get('/dashboard', function() {
+Route::get('/dashboard', function () {
     return view('dashboard.index');
 })->middleware('auth');
 
-Route::get('/dashboard/posts/checkSlug', [DashboardPostController:: class, 'checkSlug'])
-->middleware('auth');
+Route::get('/dashboard/posts/checkSlug', [DashboardPostController::class, 'checkSlug'])
+    ->middleware('auth');
 
 Route::resource('/dashboard/posts', DashboardPostController::class)
-->middleware('auth');
+    ->middleware('auth');
 
 Route::resource('/dashboard/categories', AdminCategoryController::class)->except('show')->middleware('admin');
