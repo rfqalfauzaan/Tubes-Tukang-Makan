@@ -5,7 +5,7 @@
 
 
   <style>
-    
+
   </style>
 
 
@@ -28,7 +28,7 @@
 
     <div class="row mb-2">
       <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" img src="img/ayam.jpg" class="card-img-top">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary">Best Menu</strong>
             <h3 class="mb-0">Ayam Goreng</h3>
@@ -36,13 +36,13 @@
             <p class="card-text mb-auto">Ayam goreng yang di goreng dadakan</p>
             <a href="#" class="stretched-link">Continue reading</a>
           </div>
-          <div class="col-auto d-none d-lg-block">
-            <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-            </svg>
 
-          </div>
+          <div class="col-auto d-none d-lg-block">
+           <div> <img src="img/ayam.jpg"  width="250" height="200" >
+                <svg  class="bd-placeholder-img" width="200" height="250" role="img">
+            </svg>
+        </Div>
+    </div>
         </div>
       </div>
       <div class="col-md-6">
@@ -51,13 +51,14 @@
             <strong class="d-inline-block mb-2 text-success">Best Menu</strong>
             <h3 class="mb-0">Jus Melon</h3>
             <div class="mb-1 text-muted">Rp.20.000,00</div>
-            <p class="mb-auto">Jus melon segar</p>
+            <p class="mb-auto">Jus melon segar yang di buat dadakan</p>
             <a href="#" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+            <div>
+                <img src="img/melon.jpg" width="250" height="200" >
+
+                <svg class="bd-placeholder-img"  width="200" height="250" >
             </svg>
 
           </div>
@@ -80,12 +81,12 @@
           </thead>
           <tbody>
             <tr>
-              <td>Ayam</td>
+              <td>Ayam Goreng</td>
               <td>10k</td>
               <td>1</td>
             </tr>
             <tr>
-              <td>ikan</td>
+              <td>Ayam Bakar</td>
               <td>20k</td>
               <td>1</td>
             </tr>
@@ -94,13 +95,92 @@
               <td>30k</td>
               <td>1</td>
             </tr>
-          </tbody>
-          <tfoot>
             <tr>
-              <td>sayur</td>
+              <td>sayur sop</td>
               <td>21k</td>
               <td>1</td>
             </tr>
+            <tr>
+                <td>gulai ikan</td>
+                <td>21k</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>gulai daging</td>
+                <td>31k</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>ikan bakar</td>
+                <td>21k</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>ikan goreng</td>
+                <td>21k</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>pepes ikan</td>
+                <td>21k</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>pepes ayam</td>
+                <td>21k</td>
+                <td>1</td>
+              </tr>
+
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th> Minuman</th>
+                    <th>Harga</th>
+                    <th>porsi</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Black Coffe</td>
+                    <td>10k</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>Cappucinno</td>
+                    <td>20k</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>Mochacinno</td>
+                    <td>30k</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>Chocolate</td>
+                    <td>10k</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>Milo</td>
+                      <td>21k</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>Jus</td>
+                      <td>31k</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>ice Tea</td>
+                      <td>21k</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>Lemon Tea</td>
+                      <td>21k</td>
+                      <td>1</td>
+                    </tr>
+            </tbody>
           </tfoot>
         </table>
         </article>
@@ -110,24 +190,23 @@
         <div class="position-sticky" style="top: 2rem;">
           <div class="p-4 mb-3 bg-light rounded">
             <h4 class="fst-italic">Tentang kami</h4>
-            <p class="mb-0">kami adalah website makan blabla bla</p>
+            <p class="mb-0">kami adalah website yang akan mempromosikan produk-produk kuliner dari seluruh indonesia, jika kalian ingin mempromosikannya bisa hubungi kami langsung.</p>
           </div>
 
           <div class="p-4">
-            <h4 class="fst-italic">Kategori Makanan</h4>
+            <h4 class="fst-italic">Kategori Kuliner</h4>
             <ol class="list-unstyled mb-0">
-              <li><a href="#">Ayam</a></li>
-              <li><a href="#">Ikan</a></li>
-              <li><a href="#">Daging</a></li>
-              <li><a href="#">Desert</a></li>
+              <li><a href="#">Makanan</a></li>
               <li><a href="#">Minuman</a></li>
+              <li><a href="#">Desert</a></li>
+
             </ol>
           </div>
 
           <div class="p-4">
             <h4 class="fst-italic">Contact Us</h4>
             <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Instagram</a></li>
               <li><a href="#">Twitter</a></li>
               <li><a href="#">Facebook</a></li>
             </ol>
