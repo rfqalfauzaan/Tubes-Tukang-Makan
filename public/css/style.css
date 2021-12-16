@@ -1,0 +1,13 @@
+body {
+    min-height: 2000px;
+}
+
+.jumbotron {
+    padding-top: 2rem;
+    background-color: rgb(93, 233, 203);
+}
+
+#galery {
+    background-color: rgb(93, 233, 203);
+
+}
