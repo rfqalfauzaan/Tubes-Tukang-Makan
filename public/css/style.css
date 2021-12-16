@@ -1,27 +1,20 @@
-body {
-    min-height: 2000px;
-}
-
-.jumbotron {
-    padding-top: 2rem;
-    background-color: rgb(93, 233, 203);
-}
-
-#galery {
-    background-color: rgb(93, 233, 203);
-
-}
-
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
+ .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
+  .form-registration input {
+    border-radius: 0;
   }
+  

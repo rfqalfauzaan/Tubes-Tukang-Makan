@@ -5,12 +5,15 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link {{ ($active === "home") ? 'active' : '' }}"  href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($active === "canteen") ? 'active' : '' }}" href="/canteen">Canteen</a>
+          <a class="nav-link {{ ($active === "blog") ? 'active' : '' }}" href="/blog">Canteen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ ($active === "categories") ? 'active' : '' }}" href="/categories">Categories</a>
         </li>
         <li class="nav-item">
           <a class="nav-link  {{ ($active === "About") ? 'active' : '' }}" href="/about">About Us</a>
@@ -18,8 +21,10 @@
         <li class="nav-item">
           <a class="nav-link {{ ($active === "contact") ? 'active' : '' }}" href="/contact">Contact Us</a>
         </li>
-      </ul>
-      <ul class="navbar-nav ms-auto">
+   
+      
+    </ul>
+      <ul class="navbar-nav ">
                @auth
                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

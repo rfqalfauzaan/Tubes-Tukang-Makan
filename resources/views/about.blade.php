@@ -26,7 +26,7 @@
         </div>
         <div class="row justify-content-center fs-10 text-justify">
             <div class="col-md-4 text-center">
-                <p>Website <b>Food Court Online</b> ini dibuat untuk memenuhi para restoran cafe dll ,yang ingin memposting ke jaring media <b>disilah tempat yang paling anda cari</b>
+                <p>Website <b>Food Court Online</b> ini dibuat untuk memenuhi para makanan dan minuman yang pengen kalian share atau  ,yang ingin memposting ke jaring media <b>disilah tempat yang paling anda cari</b>
                 </p>
             </div>
             <div class="col-md-4 text-center">
