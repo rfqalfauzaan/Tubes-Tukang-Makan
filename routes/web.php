@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,15 +16,30 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home',[
+        "active" => "home"]);
+    
 });
 
 Route::get('/canteen', function () {
-    return view('canteen');
+    return view('canteen',[
+        "active" => "canteen"
+    ]);
+    
 });
 Route::get('/about', function () {
-    return view('about');
+    return view('about',[
+        "active" => "about"
+    ]);
 });
 Route::get('/contact', function () {
-    return view('contact');
+    return view('contact',[
+        "active" => "home"]);
 });
+
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
+
+Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
+Route::post('/register', [RegisterController::class, 'store']);
